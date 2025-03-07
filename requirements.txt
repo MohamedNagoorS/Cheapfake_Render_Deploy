@@ -49,12 +49,6 @@ gevent==24.11.1
 geventhttpclient==2.3.3
 gitdb==4.0.10
 GitPython==3.1.36
-google-ai-generativelanguage==0.4.0
-google-api-core==2.18.0
-google-auth==2.29.0
-google-generativeai==0.4.1
-google-pasta==0.2.0
-googleapis-common-protos==1.63.0
 greenlet==3.1.1
 grpcio==1.70.0
 grpcio-status==1.62.1
@@ -126,7 +120,6 @@ platformdirs==4.2.2
 pluggy==1.5.0
 prompt_toolkit==3.0.47
 proto-plus==1.23.0
-protobuf==5.29.3
 psutil==6.0.0
 pure_eval==0.2.3
 pyarrow==13.0.0
