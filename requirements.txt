@@ -49,9 +49,6 @@ geventhttpclient==2.3.3
 gitdb==4.0.10
 GitPython==3.1.36
 greenlet==3.1.1
-grpcio==1.70.0
-grpcio-status==1.62.1
-grpcio-tools==1.70.0
 gunicorn==23.0.0
 h11==0.14.0
 h5py==3.11.0
