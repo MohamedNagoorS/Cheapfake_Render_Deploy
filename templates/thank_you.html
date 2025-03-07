@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Thank You</title>
+    <style>
+        body {
+            background-color: #e8f5e9;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        .feedback-message {
+            margin-top: 20px;
+            padding: 15px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .positive {
+            background-color: #f1f8e9;
+            border-left: 6px solid #4caf50;
+        }
+        .negative {
+            background-color: #ffebee;
+            border-left: 6px solid #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Thank You for Your Feedback!</h2>
+        <p>Your feedback helps us improve our detection system.</p>
+        <div id="feedback-message" class="feedback-message"></div>
+        <div class="btn-container">
+            <a href="/similarity_checker" class="btn btn-primary">Check Another Image</a>
+        </div>
+    </div>
+</body>
+</html>

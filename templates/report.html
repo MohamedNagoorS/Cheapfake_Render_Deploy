@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detection Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h2 { color: #333; }
+        p { font-size: 18px; }
+        .result { font-weight: bold; font-size: 20px; }
+        .heatmap-img { max-width: 100%; height: auto; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>Image Captioning & Similarity Analysis Report</h2>
+    <p><strong>Generated Caption:</strong> {{ generated_caption }}</p>
+    <p><strong>User Caption:</strong> {{ user_caption }}</p>
+    
+    {% if similarity_score and similarity_score != 'N/A' %}
+        <p><strong>Similarity Score:</strong> {{ similarity_score }}</p>
+    {% else %}
+        <p><strong>Similarity Score:</strong> Not Available</p>
+    {% endif %}
+    
+    <p class="result"><strong>Result:</strong> {{ result }}</p>
+    
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+Flask
+transformers
+sentence-transformers
+torch
+p
+pdfkit
+Pillow
+matplotlib
+seaborn
+requests
+io
+os
+re
+numpy
