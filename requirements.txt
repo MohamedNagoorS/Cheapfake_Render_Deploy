@@ -8,8 +8,5 @@ Pillow
 matplotlib
 seaborn
 requests
-io
-os
-re
 numpy
 Gunicorn
